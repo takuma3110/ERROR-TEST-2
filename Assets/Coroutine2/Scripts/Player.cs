@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Player : MonoBehaviour {
 
-    public bool getDestroy = false;
+   bool getDestroy = false;
 
     void OnCollisionEnter(Collision  other){
         if (other.gameObject.tag == "Enemy") {

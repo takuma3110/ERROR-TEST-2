@@ -29,6 +29,6 @@ public class GameController : MonoBehaviour {
 
     IEnumerator GenerateEnemy(){
         yield return new WaitForSeconds (3.0f);
-        Instantiate (enemy, new Vector3(Random.Range(-stageWidth/2,stageWidth/2),1,Random.Range(-stageHeight/2,stageHeight/ 2)),Quaternion.identity);
+        Instantiate (enemy, new Vector3(Random.Range(-stageWidth/2,stageWidth/2),1,Random.Range(-stageHeight/2,stageHeight/ 2)));
     }
 }
